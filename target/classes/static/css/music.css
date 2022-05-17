@@ -1,0 +1,583 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.videoBox {
+    /* background-color: #0aa; */
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    z-index: 999998;
+}
+
+.videof {
+    background-color: #055;
+    background-image: url(../images/bg1.jpg);
+    background-size: 100% auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.music-button {
+    /* 开始 */
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -204px;
+    /* 暂停 */
+    /* background: url(https://images.cnblogs.com/cnblogs_com/a-cat/1193051/o_191118161514stop.png) center no-repeat; */
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 50%;
+    top: 50%;
+    margin-left: -18px;
+    margin-top: -18px;
+    z-index: 6;
+    cursor: pointer;
+}
+
+.stop .music-button {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -165px;
+}
+
+
+/* 下方控制台 */
+
+
+/* 最外层盒子 */
+
+.g-btmbar {
+    position: fixed;
+    _position: absolute;
+    zoom: 1;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    z-index: 1002;
+}
+
+
+/* 次外层盒子 */
+
+.m-playbar {
+    /* background-color: #3B3B3B; */
+    position: absolute;
+    zoom: 1;
+    top: -53px;
+    left: 0;
+    width: 100%;
+    height: 53px;
+    margin: 0 auto;
+    user-select: none;
+    transition: top 0.3s linear 0s;
+}
+
+
+/* 右侧部分盒子 */
+
+.m-playbar .updn {
+    position: relative;
+    z-index: 11;
+}
+
+
+/* 锁盒子 */
+
+.m-playbar .updn .left {
+    position: absolute;
+    top: -14px;
+    right: 15px;
+    width: 52px;
+    height: 67px;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -380px;
+}
+
+
+/* 锁标志 */
+
+.m-playbar .updn .btn {
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 6px 0 0 17px;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+}
+
+.m-playbar-lock .updn .btn {
+    background-position: -100px -380px;
+}
+
+.m-playbar-lock .updn .btn:hover {
+    background-position: -100px -400px;
+}
+
+
+/* m-playbar盒子开锁 m-playbar-unlock */
+
+.m-playbar-unlock .updn .btn {
+    background-position: -80px -380px;
+}
+
+.m-playbar-unlock .updn .btn:hover {
+    background-position: -80px -400px;
+}
+
+
+/* 右侧边 */
+
+.m-playbar .updn .right {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    width: 15px;
+    height: 54px;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -52px -393px;
+    pointer-events: none;
+}
+
+
+/* 主体 */
+
+.m-playbar .bg {
+    height: 53px;
+    zoom: 1;
+    margin-right: 67px;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+
+
+/* 触发弹出 */
+
+.m-playbar .hand {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+/* 播放控件盒子 */
+
+.m-playbar .wrap {
+    position: absolute;
+    left: 50%;
+    top: 6px;
+    z-index: 15;
+    width: 980px;
+    height: 47px;
+    margin: 0 auto;
+    margin-left: -490px;
+}
+
+
+/* 播放控件按钮盒子 */
+
+.m-playbar .btns {
+    width: 137px;
+    padding: 6px 0 0 0;
+    float: left;
+}
+
+
+/* 播放控件按钮 */
+
+.m-playbar .btns a {
+    display: block;
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    margin-top: 5px;
+    text-indent: -9999px;
+}
+
+.m-playbar .btns .prv {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -130px;
+}
+
+.m-playbar .btns .prv:hover {
+    background-position: -30px -130px;
+}
+
+.m-playbar .btns .ply {
+    width: 36px;
+    height: 36px;
+    margin-top: 0;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -204px;
+}
+
+
+/* 暂停ply j-flag pas */
+
+.m-playbar .btns .ply.pas {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -165px;
+}
+
+.m-playbar .btns .ply.pas:hover {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -40px -165px;
+}
+
+.m-playbar .btns .ply:hover {
+    background-position: -40px -204px;
+}
+
+.m-playbar .btns .nxt {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -80px -130px;
+}
+
+.m-playbar .btns .nxt:hover {
+    background-position: -110px -130px;
+}
+
+
+/* 海报 */
+
+.m-playbar .head {
+    position: relative;
+    zoom: 1;
+    float: left;
+    margin: 6px 15px 0 0;
+}
+
+.m-playbar .head,
+.m-playbar .head img {
+    width: 34px;
+    height: 34px;
+    user-select: none;
+}
+
+.m-playbar .head .mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 34px;
+    height: 35px;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -80px;
+}
+
+
+/* 播放条 */
+
+.m-playbar .play {
+    position: relative;
+    zoom: 1;
+    width: 608px;
+    float: left;
+}
+
+
+/* 歌名 */
+
+.m-playbar .words {
+    height: 28px;
+    font-size: 12px;
+    max-width: 300px;
+    /* overflow: hidden; */
+    color: #e8e8e8;
+    text-shadow: 0 1px 0 #171717;
+    line-height: 28px;
+    user-select: none;
+}
+
+.f-thide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.f-fl {
+    float: left;
+}
+
+
+/* 进度条盒子 */
+
+.m-pbar {
+    position: relative;
+    zoom: 1;
+}
+
+.m-pbar,
+.m-pbar .barbg {
+    width: 493px;
+}
+
+
+/* 进度条 */
+
+
+/* 背景为黑色进度条 */
+
+.m-pbar .barbg,
+.m-pbar .cur,
+.m-pbar .rdy {
+    height: 9px;
+    background: url(../images/statbar.png) no-repeat 0 9999px;
+    background-position: right 0;
+}
+
+
+/* 未播放进度条 */
+
+
+/* 背景为灰色加载进度条 */
+
+.m-pbar .rdy {
+    width: 0%;
+    background: url(../images/statbar.png) no-repeat 0 9999px;
+    background-position: right -30px;
+}
+
+
+/* 已播放进度条 */
+
+
+/* 背景为红色进度条 */
+
+.m-pbar .cur {
+    width: 22%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1%;
+    background: url(../images/statbar.png) no-repeat 0 9999px;
+    background-position: left -66px;
+}
+
+
+/* 按钮 */
+
+.m-pbar .btn {
+    position: absolute;
+    top: -7px;
+    right: -13px;
+    width: 22px;
+    height: 24px;
+    margin-left: -11px;
+    background: url(../images/iconall.png);
+    background-position: 0 -250px;
+}
+
+.m-pbar .btn:hover {
+    background-position: 0 -280px;
+}
+
+.m-pbar .btn i {
+    /* 加载中 */
+    visibility: hidden;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background: url(../images/loading.gif);
+}
+
+
+/* 时间显示 */
+
+.m-pbar .time {
+    position: absolute;
+    top: -3px;
+    right: -84px;
+    color: #797979;
+    text-shadow: 0 1px 0 #121212;
+}
+
+.m-pbar .time em {
+    color: #a1a1a1;
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+}
+
+
+/* 声音控件 */
+
+.m-playbar .ctrl {
+    position: relative;
+    z-index: 10;
+    width: 113px;
+    padding-left: 13px;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -147px -238px;
+}
+
+.m-vol {
+    position: absolute;
+    top: -113px;
+    left: 9px;
+    clear: both;
+    width: 32px;
+    height: 113px;
+}
+
+.m-vol .barbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 113px;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -503px;
+}
+
+.m-vol .vbg,
+.m-vol .curr {
+    position: absolute;
+    top: 11px;
+    left: 14px;
+    width: 4px;
+    height: 93px;
+}
+
+.m-vol .curr {
+    top: auto;
+    bottom: 4px;
+    left: 0;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -40px bottom;
+    overflow: hidden;
+}
+
+.m-vol .btn {
+    position: absolute;
+    top: 0;
+    left: -7px;
+    display: block;
+    width: 18px;
+    height: 20px;
+    background: url(../images/iconall.png);
+    background-position: -40px -250px;
+    _background-position: 0 0;
+    cursor: pointer;
+}
+
+.m-vol .vbg {
+    padding: 4px 0;
+    top: 7px;
+}
+
+.m-playbar .icn {
+    float: left;
+    width: 25px;
+    height: 25px;
+    margin: 11px 2px 0 0;
+    text-indent: -9999px;
+}
+
+.m-playbar .icn-vol {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -2px -248px;
+}
+
+.m-playbar .icn-vol:hover {
+    background-position: -31px -248px;
+}
+
+
+/* 静音icn icn-vol icn-volno */
+
+.m-playbar .icn-volno {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -104px -69px;
+}
+
+.m-playbar .icn-volno:hover {
+    background-position: -126px -69px;
+}
+
+.m-playbar .icn-loop {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -3px -344px;
+}
+
+.m-playbar .icn-loop:hover {
+    background-position: -33px -344px;
+}
+
+
+/* 单曲循环icn icn-one */
+
+.m-playbar .icn-one {
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: -66px -344px;
+}
+
+.m-playbar .icn-one:hover {
+    background-position: -93px -344px;
+}
+
+
+/* 提示栏 */
+
+.m-playbar .tip-1 {
+    position: absolute;
+    top: -35px;
+    left: 12px;
+    width: 81px;
+    height: 39px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    background: url(../images/playbar.png) no-repeat 0 9999px;
+    background-position: 0 -457px;
+}
+
+
+/* 移动端隐藏 */
+
+@media (max-width: 767px) {
+    .videoBox {
+        display: none;
+    }
+    .m-playbar {
+        display: none;
+    }
+}

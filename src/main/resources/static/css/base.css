@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    font-size:4px;
+    color:#333;
+    background-color: #ffffff;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.upload-box {
+    position: relative;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #3a8ee6;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+input[type='file'] {
+    width: 50px;
+    height: 30px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.tip {
+    position: relative;
+    margin: 10px auto;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+.tip:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 8px solid;
+}
+.right {
+    background-color:#76BECC;
+}
+.left {
+    background-color:#8CC7B5;
+}
+.left:after {
+    border-right-color: #8CC7B5;
+    top: 50%;
+    right: 100%;
+    margin-top: -9px;
+}
+.right:after {
+    border-left-color: #76BECC;
+    left: 100%;
+    top: 50%;
+    margin-top: -7px;
+}
+/*elementUI样式调整*/
+[v-cloak] {
+    display: none;
+}
+.el-header {
+    padding-left: 0;
+}
+.el-aside,.el-menu {
+    overflow-x: hidden;
+}
+.horizontal-collapse-transition {
+    transition: 0s;
+}
+.el-menu a {
+    color: white;
+}
+.el-menu .is-active a {
+    color: #ffd04b;
+}
+.el-input__icon {
+    line-height: 30px;
+}
+.el-input__inner{
+    height: 30px;
+    line-height: 30px;
+}

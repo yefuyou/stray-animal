@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7696d4a5-b2e4-4a39-9da3-67213dedc3af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/META-INF/animal-home.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/AuthInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/WebMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/WebMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/common/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/component/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/component/WebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/AdoptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/AdoptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/AnimalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/AnimalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/NoticeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/NoticeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/PermissionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/PermissionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/ProofController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/ProofController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/VisitController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/VisitController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/VolunteerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/controller/VolunteerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/dto/FileVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/dto/FileVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Adopt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Adopt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Notice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Notice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Permission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Proof.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Proof.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Visit.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Visit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Volunteer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/entity/Volunteer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/exception/CustomException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/exception/CustomException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/AccountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/AccountMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/AdoptMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/AdoptMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/AnimalMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/AnimalMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/NoticeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/NoticeMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/PermissionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/PermissionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/ProofMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/ProofMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/RoleMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/RoleMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/VisitMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/VisitMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/VolunteerMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/mapper/VolunteerMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/AdoptService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/AdoptService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/AnimalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/AnimalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/NoticeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/NoticeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/PermissionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/PermissionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/ProofService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/ProofService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/VisitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/VisitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/VolunteerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../target/classes/com/example/service/VolunteerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../test.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../基于web的流浪动物救助领养管理系统设计.pdf" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27NCYwaKvob1rcQEm7v3DRZb4Hb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7696d4a5-b2e4-4a39-9da3-67213dedc3af" name="Changes" comment="" />
+      <created>1649151214985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649151214985</updated>
+      <workItem from="1649151214985" duration="169000" />
+      <workItem from="1649153339658" duration="1707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
